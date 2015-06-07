@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AD802641B2417E3009DFEE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD802631B2417E3009DFEE3 /* AppDelegate.swift */; };
+		5AD802661B2417E3009DFEE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD802651B2417E3009DFEE3 /* ViewController.swift */; };
+		5AD802691B2417E3009DFEE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD802671B2417E3009DFEE3 /* Main.storyboard */; };
+		5AD8026B1B2417E3009DFEE3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AD8026A1B2417E3009DFEE3 /* Images.xcassets */; };
+		5AD8026E1B2417E3009DFEE3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AD8026C1B2417E3009DFEE3 /* LaunchScreen.xib */; };
+		5AD8027A1B2417E3009DFEE3 /* SigletonDessignPatternSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD802791B2417E3009DFEE3 /* SigletonDessignPatternSwiftTests.swift */; };
+		5AD802841B241980009DFEE3 /* MySingletonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD802831B241980009DFEE3 /* MySingletonClass.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AD802741B2417E3009DFEE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AD802561B2417E3009DFEE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AD8025D1B2417E3009DFEE3;
+			remoteInfo = SigletonDessignPatternSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5AD8025E1B2417E3009DFEE3 /* SigletonDessignPatternSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SigletonDessignPatternSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD802621B2417E3009DFEE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AD802631B2417E3009DFEE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5AD802651B2417E3009DFEE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5AD802681B2417E3009DFEE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AD8026A1B2417E3009DFEE3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5AD8026D1B2417E3009DFEE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5AD802731B2417E3009DFEE3 /* SigletonDessignPatternSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SigletonDessignPatternSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AD802781B2417E3009DFEE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AD802791B2417E3009DFEE3 /* SigletonDessignPatternSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigletonDessignPatternSwiftTests.swift; sourceTree = "<group>"; };
+		5AD802831B241980009DFEE3 /* MySingletonClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySingletonClass.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AD8025B1B2417E3009DFEE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD802701B2417E3009DFEE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AD802551B2417E3009DFEE3 = {
+			isa = PBXGroup;
+			children = (
+				5AD802601B2417E3009DFEE3 /* SigletonDessignPatternSwift */,
+				5AD802761B2417E3009DFEE3 /* SigletonDessignPatternSwiftTests */,
+				5AD8025F1B2417E3009DFEE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AD8025F1B2417E3009DFEE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AD8025E1B2417E3009DFEE3 /* SigletonDessignPatternSwift.app */,
+				5AD802731B2417E3009DFEE3 /* SigletonDessignPatternSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AD802601B2417E3009DFEE3 /* SigletonDessignPatternSwift */ = {
+			isa = PBXGroup;
+			children = (
+				5AD802631B2417E3009DFEE3 /* AppDelegate.swift */,
+				5AD802651B2417E3009DFEE3 /* ViewController.swift */,
+				5AD802831B241980009DFEE3 /* MySingletonClass.swift */,
+				5AD802671B2417E3009DFEE3 /* Main.storyboard */,
+				5AD8026A1B2417E3009DFEE3 /* Images.xcassets */,
+				5AD8026C1B2417E3009DFEE3 /* LaunchScreen.xib */,
+				5AD802611B2417E3009DFEE3 /* Supporting Files */,
+			);
+			path = SigletonDessignPatternSwift;
+			sourceTree = "<group>";
+		};
+		5AD802611B2417E3009DFEE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AD802621B2417E3009DFEE3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AD802761B2417E3009DFEE3 /* SigletonDessignPatternSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				5AD802791B2417E3009DFEE3 /* SigletonDessignPatternSwiftTests.swift */,
+				5AD802771B2417E3009DFEE3 /* Supporting Files */,
+			);
+			path = SigletonDessignPatternSwiftTests;
+			sourceTree = "<group>";
+		};
+		5AD802771B2417E3009DFEE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AD802781B2417E3009DFEE3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AD8025D1B2417E3009DFEE3 /* SigletonDessignPatternSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AD8027D1B2417E3009DFEE3 /* Build configuration list for PBXNativeTarget "SigletonDessignPatternSwift" */;
+			buildPhases = (
+				5AD8025A1B2417E3009DFEE3 /* Sources */,
+				5AD8025B1B2417E3009DFEE3 /* Frameworks */,
+				5AD8025C1B2417E3009DFEE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SigletonDessignPatternSwift;
+			productName = SigletonDessignPatternSwift;
+			productReference = 5AD8025E1B2417E3009DFEE3 /* SigletonDessignPatternSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AD802721B2417E3009DFEE3 /* SigletonDessignPatternSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AD802801B2417E3009DFEE3 /* Build configuration list for PBXNativeTarget "SigletonDessignPatternSwiftTests" */;
+			buildPhases = (
+				5AD8026F1B2417E3009DFEE3 /* Sources */,
+				5AD802701B2417E3009DFEE3 /* Frameworks */,
+				5AD802711B2417E3009DFEE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AD802751B2417E3009DFEE3 /* PBXTargetDependency */,
+			);
+			name = SigletonDessignPatternSwiftTests;
+			productName = SigletonDessignPatternSwiftTests;
+			productReference = 5AD802731B2417E3009DFEE3 /* SigletonDessignPatternSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AD802561B2417E3009DFEE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = CELERI.ES;
+				TargetAttributes = {
+					5AD8025D1B2417E3009DFEE3 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					5AD802721B2417E3009DFEE3 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 5AD8025D1B2417E3009DFEE3;
+					};
+				};
+			};
+			buildConfigurationList = 5AD802591B2417E3009DFEE3 /* Build configuration list for PBXProject "SigletonDessignPatternSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AD802551B2417E3009DFEE3;
+			productRefGroup = 5AD8025F1B2417E3009DFEE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AD8025D1B2417E3009DFEE3 /* SigletonDessignPatternSwift */,
+				5AD802721B2417E3009DFEE3 /* SigletonDessignPatternSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AD8025C1B2417E3009DFEE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD802691B2417E3009DFEE3 /* Main.storyboard in Resources */,
+				5AD8026E1B2417E3009DFEE3 /* LaunchScreen.xib in Resources */,
+				5AD8026B1B2417E3009DFEE3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD802711B2417E3009DFEE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AD8025A1B2417E3009DFEE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD802841B241980009DFEE3 /* MySingletonClass.swift in Sources */,
+				5AD802661B2417E3009DFEE3 /* ViewController.swift in Sources */,
+				5AD802641B2417E3009DFEE3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD8026F1B2417E3009DFEE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD8027A1B2417E3009DFEE3 /* SigletonDessignPatternSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AD802751B2417E3009DFEE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AD8025D1B2417E3009DFEE3 /* SigletonDessignPatternSwift */;
+			targetProxy = 5AD802741B2417E3009DFEE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5AD802671B2417E3009DFEE3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AD802681B2417E3009DFEE3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5AD8026C1B2417E3009DFEE3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AD8026D1B2417E3009DFEE3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AD8027B1B2417E3009DFEE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5AD8027C1B2417E3009DFEE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AD8027E1B2417E3009DFEE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SigletonDessignPatternSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5AD8027F1B2417E3009DFEE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SigletonDessignPatternSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5AD802811B2417E3009DFEE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SigletonDessignPatternSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SigletonDessignPatternSwift.app/SigletonDessignPatternSwift";
+			};
+			name = Debug;
+		};
+		5AD802821B2417E3009DFEE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SigletonDessignPatternSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SigletonDessignPatternSwift.app/SigletonDessignPatternSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AD802591B2417E3009DFEE3 /* Build configuration list for PBXProject "SigletonDessignPatternSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD8027B1B2417E3009DFEE3 /* Debug */,
+				5AD8027C1B2417E3009DFEE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AD8027D1B2417E3009DFEE3 /* Build configuration list for PBXNativeTarget "SigletonDessignPatternSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD8027E1B2417E3009DFEE3 /* Debug */,
+				5AD8027F1B2417E3009DFEE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5AD802801B2417E3009DFEE3 /* Build configuration list for PBXNativeTarget "SigletonDessignPatternSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AD802811B2417E3009DFEE3 /* Debug */,
+				5AD802821B2417E3009DFEE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AD802561B2417E3009DFEE3 /* Project object */;
+}
